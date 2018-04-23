@@ -5,6 +5,3 @@ permalink: /about/
 ---
 
 About content goes here.
-
-* A list time
-* Another list item
