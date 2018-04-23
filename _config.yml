@@ -4,7 +4,7 @@ email: adam@adamsingle.com
 description: > # this means to ignore newlines until "baseurl:"
   A simple site that holds blog posts about my game development projets and other technical, game dev related, topics.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://adamsingle.github.io/blog" # the base hostname and protocol for your site
+url: "http://adamsingle.github.io" # the base hostname and protocol for your site
 twitter_username: adamsingle
 github_username: adamsingle
 
