@@ -28,13 +28,14 @@ I also won't go too much into explaining Zenject and Dependency Injection. Again
 
 Basically, I'm assuming if you have clicked on the link to read this blog, you have an idea on at least some of the things mentioned in the title. So let's get straight to the process.
 
-######Versions
+##### Versions
 I'm writing this blog using the following versions:
 Unity - 2018.2.0f2
 Zenject - 7.2.0
 Moq - 4.7.99
 UniRx - 6.2.1
-######Installation
+
+#### Installation
 
 Let's start with *Zenject*. Inside the *Unity Editor*, open the Asset Store window (Ctrl + 9) and search for *Zenject*. Select Download, and when that's done, Import. This will open an Editor Window showing all the files in the *Zenject* package with another Import button in the bottom right corner. Go ahead and click it.
 
@@ -52,7 +53,7 @@ I'm going to switch to .NET 4.x. If you also change your project, you'll notice 
 OK. If we open Visual Studio (***Assets->Open C# Project***) you may notice that the Solution Explorer shows many projects in your solution
 ![](/content/images/2018/08/SolutionExplorer.PNG)
 
-This has to do with Unity adding support for Assembly Definition files. *Zenject* has been set up to use them also. So far, I've found them quite painful. I've had issues with trying to get project references to show up in the projects I need them in. So my solution for now is to kill all the *asmdef* files and go back to thye "old way". For *Zenject*, these are found in the following places:
+This has to do with Unity adding support for Assembly Definition files. *Zenject* has been set up to use them also. So far, I've found them quite painful. I've had issues with trying to get project references to show up in the projects I need them in. So my solution for now is to kill all the *asmdef* files and go back to the "old way". For *Zenject*, these are found in the following places:
 
 - Plugins/Zenject/zenject.asmdef
 - Plugins/Zenject/Source/Editor/Zenject-Editor.asmdef
@@ -90,7 +91,7 @@ If you remove these files you'll be back to the two projects in your solution. K
 
 > As a quick explanation, anything in a directory called **Editor** in your project Unity bundles into a special project in the visual studio solution that has a reference to the UnityEditor assembly and isn't built into your game when you build. **Plugins** is another special directory that is separated out to minimise compile time, and any **Editor** directory in **Plugins** also gets it 's own project that is not built into your game. In this way, when you change any of your code and it has to be recompiled by Unity, it doesn't bother compiling the **Plugins** or **Plugins/Editor** code unless they also had code changes made. The use of Assembly Definitions to create more projects in the solution is an extension of this. You can limit parts of your code from having reference access to others as well as minimise recompile times by having smaller projects to compile. But so far I've found this more complication than it's worth. 
 
-#####Laying the foundation
+#### Laying the foundation
 Let's take this one step at a time. Let's set up some foundation code first, ready to test. Before that, let's get some folder structure in place. Create a new directory in **Assets** called **Code**. Inside that make one called **Editor** and in that, one called **Tests**.
 
 ![](/content/images/2018/08/FolderStructure.PNG)
@@ -132,7 +133,7 @@ To set these up for *Zenject* to know they need to be injected, we simply use th
 
 That's our foundation complete. Let's write some tests.
 
-#####First test
+#### First test
 Now we need a test class. In Code/Editor/Tests add a new script called `MessageServiceManagerTests.cs`. 
 >By now you'll see that we have the other two projects I mentioned earlier. The scripts we added in the Code directory caused Unity to create the `Assembly-CSharp` project and the test script we just created (which you'll notice is contained within a directory named Editor) caused the creation of `Assembly-CSharp-Editor`. 
 
@@ -165,7 +166,7 @@ Before we celebrate, let's quickly change our test to pass in the most stupid wa
 
 Great! Welcome to tested code!
 
-#####Write a real test
+#### Write a real test
 So we have a test, but it doesn't really test anything. So let's write a real test. We want to test that when the `MessageServiceManager` has `Connect()` called on it, it calls `Connect()` on the `IMessageAPI`. So let's write a test for that. 
 
 >There are a number of test naming conventions out there. Ultimately you can choose whatever you like, but personally, I like to just use the feature being tested with lowercase and underscores for readability and differentiation from non-test methods. I try to word it in a way that when read in the test runner, the green tick or red circle make sense. 
@@ -235,7 +236,7 @@ That's nice and readable. Calling `Verify()` tells the test runner that we expec
 Open `MessageServiceManager` and inside the `Connect()` method, add `_api.Connect();`
 Save, jump back to Unity, rerun your tests and bask in the light of green ticks.
 
-#####Testing method call with argument
+#### Testing method call with argument
 OK, let's get cracking on our next test. Let's test that when we call `Connect()` on our `MessageServiceManager` we call Connect on our `IMessageClient` with the correct arguments. 
 Let's add a new test called `calling_connect_calls_connect_on_client_with_api_and_channel`. In my book, you can never be too verbose with test method names. You're never going to have to call them, so you don't have to worry about the awkwardness of typing that in code. You just have to worry about readibility in the test runner. Go ahead and make this method, don't forget the `[Test]` attribute. If you've thought ahead to writing the test, you'll quickly realise you need to set up all those bindings again. They only existed in the scope of the last test we wrote. We need everything to be fresh for this test. We could rewrite that at the start of each test. But we're programmers, we're better than that. So we could extract it all to a method, maybe called `Init()` or `Initialise()`. Let's do that. Extract out the initialisation code from `calling_connect_calls_connecton_on_api()` to a method called `Init()`
 
@@ -260,7 +261,7 @@ Now we can run our test and watch it fail.
 
 So to pass the test we need to call Connect on our IMessageClient in our `MessageServiceManager.Connect()` method and pass in the right values. Pretty straight forward, below `_api.Connect();` call `_client.Connect(_api, channel);`. Our test should now pass.
 
-#####Verifying method call order
+#### Verifying method call order
 What if we need to be sure that Connect is called on the API before it's called on Client for whatever reason? We can test for that. This way, if another developer comes along one day, does some refactoring in this class, and without realising the implications, swaps the order of those calls, our test will immediately break and we'll know what caused the problem we're no doubt about to experience in our latest builds. There is a built in way to test if methods on a particular mock are called in a sequence. But not between two mocks. The easiest way I've found for this is to use the `Callback()` method and booleans. 
 
 In this test, we want a boolean to show that the api method has been called, and another to show that the client method was called after. This is the one we'll assert on. `Callback()` can be chained on the back of `Setup()` which is another Mock method we haven't used yet. It's more commonly used to define a known return value, but you can use `Callback()` to define an Action that will run after the method is called on a mock. You write it like this
@@ -277,7 +278,7 @@ Once our callbacks are setup, we can call `_testObject.Connect()` with an empty 
 
 Once you've verified that the test does indeed fail, swap them back and smile at the screenfull of green ticks. Maybe take a break, grab a coffee and just sit back and look at them for a while. A board full of passing tests is a bloody satisfying sight to behold.
 
-#####Event testing
+#### Event testing
 There are many more tests that a service like this would have. Like connection error handling. Let's add an `OnConnectionError` event to `IMessageClient` and test that our `MessageServiceManager` throws an exception. This isn't the best handling, but demonstrates a few more features nicely. 
 
 First, let's add the event to `IMessageClient`.
@@ -315,7 +316,7 @@ At this point our test will still fail as we haven't thrown our exception yet. A
 
 And now we have a green light. 
 
-#####RX Testing
+#### RX Testing
 Last test. I know this has been a long post, thanks for sticking with me. The one bit of tech I haven't touched on yet is RX. As I mentioned in the introduction, if you don't know what Reactive Extensions are, or specifically UniRX, check out Infallible Code's videos. We're going to look at a simple example. We're going to generate a stream of messages that are coming from an event in the Client.
 
 First we'll write our test.
@@ -352,7 +353,7 @@ Return to *Unity*, run your test and you should see that beautiful green tick.
 
 ![](/content/images/2018/09/CompletedTests.PNG)
 
-#####Conclusion
+#### Conclusion
 This post barely scratches the surface of unit testing, but it has hopefully given you the tools to create them in *Unity* using some great technology like *UniRX* and *Zenject*. I hope I've managed to display the power of unit testing as a development tool, especially when used to facilitate code design, and not just as an afterthought. 
 I've also attempted to display the power of mocking libraries like Moq and how they can be used with Dependency Injection to decouple your code and test it for peace of mind. There are many more unit tests a class like our `MessageServiceManager` would need to be covered completely, and there are also other forms of testing than unit testing, such as integration testing, UI testing and scene testing (a type of *Unity* specific integration runtime test) to name a few. *Zenject* has some ability to facilitate both integration and scene testing, and they have some [documentation](https://github.com/svermeulen/Zenject/blob/master/Documentation/WritingAutomatedTests.md) on that. UI testing is a trickier subject. There is a library I found recently designed for *Unity*, and I'll be experimenting with that on my game. So I suspect there'll be another post on here in the near future on that. Hopefully not as long as this one was. 
 
