@@ -1,0 +1,31 @@
+{
+  "name": "SwaggyBastard",
+  "version": "1.0.0",
+  "description": "A Boilerplate Theme for Ghost forked from Bastard",
+  "author": {
+    "name": "Gil",
+    "email": "gfgilly@gmail.com",
+    "url": "http://gferreira.me"
+  },
+  "homepage": "https://github.com/misterGF/SwaggyBastard",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mistergf/Swaggy-Bastard.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-sass": "^0.12.1",
+    "grunt-autoprefixer": "^0.7.3",
+    "grunt-contrib-imagemin": "^0.7.0",
+    "grunt-svgmin": "^0.4.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "materialize-css":"*"
+  }
+}

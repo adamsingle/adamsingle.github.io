@@ -1,0 +1,35 @@
+---
+layout: post
+title: "#1GAM - Update 2: Not going to make it"
+image: http://res.cloudinary.com/adamsingle/image/upload/v1443437820/How-to-spot-a-deadbeat-client-the-too-busy-to-breathe_exy7eh.jpg
+date: '2013-01-28 07:37:53'
+tags:
+- 1gam
+- 1gam-2
+- blog
+- games
+- unity3d
+---
+
+
+I suspected this would be the case, but now I know for sure. There is no way I├óÔé¼Ôäóm going to get a game completed every month. If you├óÔé¼Ôäóve read this blog sequentially, you├óÔé¼Ôäóll know that life has thrown another├óÔé¼┬ªchallenge at me lately in the form of needing to find a new job. As with all new jobs, it├óÔé¼Ôäós not just a matter of finding one and going ├é┬áback to the old routine. There are always teething periods and adjustments. Add to that the fact that I never got an opporunity to start my Januray game and I think the realistic thing is to accept that I don├óÔé¼Ôäót have a lifestyle that will allow me to create a game every month.
+
+However, a good friend of mine, Harrison (@hcwool), suggested I try making it a One Game A Quarter challenge. I like that idea. As far as I├óÔé¼Ôäóm concerned if I get one game done, and published on some public platforms like Kongregate or Newgrounds, then I├óÔé¼Ôäóm doing better than ever before. So I├óÔé¼Ôäóll aim at 4 games this year instead of 12.
+
+So, I need to pick a game to do first then. I need to focus more on making one that I really want to see made, instead if just trying to think of 12 ideas.
+
+There are a couple of ideas from my [first update](http://adamsingle.com/onegameamonth-update-1/ "#OneGameAMonth ├óÔé¼ÔÇ£ Update 1")├é┬áthat I really like. I├óÔé¼Ôäóm currently going through a big Shadowrun obsession. Again. So I definitely want to do something based off the matrix portion of that game in some way. Something more of a strategy/puzzle game but with some ├óÔé¼┼ôRPG├óÔé¼┬Ø elements in that you can outfit your deck with different programs before you start and improve them afterwards.
+
+I├óÔé¼Ôäóm also very keen for the turn-based vehicle game (which was the ├óÔé¼┼ôSea Battles├óÔé¼┬Ø one on the list) but I├óÔé¼Ôäóm over the boats idea. I├óÔé¼Ôäóm more keen to do a Gorka Morka inspired game. Desert, bolted together trucks, men in makeshift armour├é┬áclinging to the sides shooting at each other. Think Mad Max. Again, this would have RPG elements, but for this scope I may scale that right down to just ├óÔé¼┼ôbuilding├óÔé¼┬Ø your team at the start from a points system. This one definitely needs to be multiplayer. For two reasons. One, that├óÔé¼Ôäód be cool. Secondly, it cuts AI out of the scope.
+
+Lastly, for now, I really want to do the Japanese point and click adventure. This one feels like a true chance to flex my design muscles and show what I can do.
+
+And that leaves one last spot for the year, which is fine, I committed myself somewhat to making two games as part of an experiment with some ├óÔé¼┼ôtweeps├óÔé¼┬Ø. This is supposed to happen later in the year, so one of the above games will probably be dropped for those. I├óÔé¼Ôäóll do another post when more details are known on those. So I need to do these in the order of preference knowing that one will probably be dropped. I├óÔé¼Ôäód say the Japanese P&C is probably the one I want to make the most, but it needs the most time spent on design. Which means not only will I do it second, but I need the first one to be short and sweet so that I can use some of that quarter to design it. I├óÔé¼Ôäóm also a month down for this first quarter, so this first one needs to be very simple to implement.
+
+I guess that makes the decision for me. I├óÔé¼Ôäóll make the Shadowrun Matrix inspired strategy/puzzler first. Then the Japanese P&C and then we├óÔé¼Ôäóll see how I├óÔé¼Ôäóm going from there.
+
+Chat soon,
+
+Adsy
+
+

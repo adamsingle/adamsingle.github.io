@@ -1,0 +1,10 @@
+{
+  "name": "Bastard",
+  "version": "1.1.4",
+  "dependencies": {
+    "bootstrap": "latest",
+    "highlightjs": "latest",
+    "bootstrap-sass-official": "latest",
+    "font-awesome": "latest"
+  }
+}

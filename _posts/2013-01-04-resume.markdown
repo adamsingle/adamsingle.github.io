@@ -1,0 +1,106 @@
+---
+layout: post
+title: Resume
+date: '2013-01-04 13:08:45'
+---
+
+
+### [Resume ├óÔé¼ÔÇ£ Downloadable Version](http://adamsingle.com/wp-content/uploads/2013/01/Adam-Single-Resume.doc)
+
+[tabgroup]  
+ [tab title=├óÔé¼┬ØSkill Summary├óÔé¼┬Ø]
+
+├óÔé¼ÔÇ£ Fluent in C# programming
+
+├óÔé¼ÔÇ£ Qualified in C++
+
+├óÔé¼ÔÇ£ Over two years experience with Unity 3D
+
+├óÔé¼ÔÇ£ Experience publishing games on iOS/Android
+
+├óÔé¼ÔÇ£ Delivery of products to tight deadlines
+
+├óÔé¼ÔÇ£ Flexibility to manage competing priorities
+
+├óÔé¼ÔÇ£ Developing and maintaining stakeholder and business relations/networking
+
+├óÔé¼ÔÇ£ Staff management ├óÔé¼ÔÇ£ including recruiting, training and rostering
+
+├óÔé¼ÔÇ£ Staff supervision
+
+├óÔé¼ÔÇ£ Project Management
+
+├óÔé¼ÔÇ£ Conflict resolution and complaint management
+
+├óÔé¼ÔÇ£ Research and evaluation
+
+├óÔé¼ÔÇ£ Managing workflow and outputs of teams
+
+├óÔé¼ÔÇ£ Strategic planning
+
+[/tab]
+
+[tab title=├óÔé¼┬ØCareer Objective├óÔé¼┬Ø]
+
+I am seeking a role where I have the opportunity to fully utilise and continually improve my programming skills, while expanding my design experience. My ideal role would combine my passion for AI programming and game design, to create truly unique and engaging game play experiences. I am pursuing a role that will challenge me, build on and enhance my skills, capabilities and experience and enable me to facilitate effective outcomes for the company.
+
+[/tab]  
+ [tab title=├óÔé¼┬ØAchievements├óÔé¼┬Ø]
+
+├óÔé¼ÔÇ£ Managed a small team and took the lead programmer role in shipping three titles (*Hot Tail*, *Zombie Juice* and *Photon*) to the App Store and Google Play as part of Bifrost Studios.
+
+├óÔé¼ÔÇ£ Was a key member of the development team for the highly successful game *Photon*, which has had over 600 000 downloads and was featured by Google Play.
+
+├óÔé¼ÔÇ£ Given the position of sole programmer on mobile titles with Valhalla Studios (later Bifrost Studios) after completing an internship as part of my Bachelor of Interactive Entertainment.
+
+├óÔé¼ÔÇ£ Received a letter of congratulations from QANTM college in my first trimester for achieving a GPA of 6.5
+
+├óÔé¼ÔÇ£ Worked as a part of a team to develop a number of small coding projects including a Squad AI demonstration, and a level editor for the final project in my Interactive Entertainment Degree.
+
+├óÔé¼ÔÇ£ Coded as part of a team on the final project for my Interactive Entertainment Degree. I was responsible for some of the visual effects and artificial intelligence.
+
+[/tab]
+
+[tab title= ├óÔé¼┼ôProfessional Experience├óÔé¼┬Ø]
+
+**Development Manager, Bifrost Studios** ├óÔé¼ÔÇ£ November 2010 ├óÔé¼ÔÇ£ Present
+
+As development manager at Bifrost Studios, I am responsible for managing multiple staff, projects and priorities to ensure all projects are running to deadline. Part of this role includes ensuring I am up-to-date with the status and issues with all projects under development. I work as part of a small management team to articulate and maintain project timelines, as well as partake in design discussions and company meetings on current and future projects. It is also my responsibility to address any staffing issues as they arise.
+
+I am also the lead programmer at the Brisbane studio, which means I am largely responsible for the coding for the studios mobile games. In this role, I have gained significant experience in using C# and the Unity 3D game engine.
+
+***Main responsibilities:***
+
+- Program mobile games using C# and Unity3D
+- Represent the company at functions, seminars and conferences
+- Manage competing priorities in managing tight deadlines
+- Manage staff
+- Act in a decision-making role in design meetings
+- Participate in company meetings
+- Establish project timelines
+- Maintain communication between members of the development team
+- Act as a conduit between the development team and management
+- Conflict resolution
+
+[/tab]
+
+[tab title= ├óÔé¼┼ôEducation and Training├óÔé¼┬Ø]
+
+2010: Completing Bachelor of Interactive Entertainment (Games Programming) at Qantm College, Brisbane.
+
+2000├óÔé¼ÔÇ£2002: Completed a number of subjects as part of a Bachelor of Information Technology and Bachelor of Microelectronic Engineering, including:
+
+- Introduction to computer systems and networks
+- Introduction to information system development
+- Technical communication
+- Programming 1 (Java)
+- Digital networks and systems
+- Introduction to electronics
+- Electric circuits
+
+[/tab]  
+ [/tabgroup]
+
+### [├é┬á](http://adamsingle.com/wp-content/uploads/2013/01/Adam-Single-Resume.doc)
+
+

@@ -1,0 +1,56 @@
+<ul class="slidemenu-nav">
+  <a id="slidemenu-close" href="#" class="btn btn-md pull-right toggle"><i class="fa fa-chevron-circle-left fa-2x"></i></a>
+  <li>
+    <a href="{{@blog.url}}">
+      <i class="fa fa-home fa-2x"></i> HOME
+    </a>
+  </li>
+  <li><a href="{{@blog.url}}/about">
+    <i class="fa fa-male fa-2x"></i> ABOUT</a>
+  </li>
+  <li>
+    <a href="{{@blog.url}}/rss/">
+      <i class="fa fa-rss  fa-2x"></i> SUBSCRIBE
+    </a>
+  </li>
+  <li class="slidemenu-divider"></li>
+  <li>
+    CATEGORIES
+  </li>
+  <li>
+    <a href="{{@blog.url}}/tag/blog">
+      <i class="fa fa-coffee fa-2x"></i> BLOG
+    </a>
+  </li>
+  <li>
+    <a href="{{@blog.url}}/tag/portfolio">
+      <i class="fa fa-gamepad fa-2x"></i> PORTFOLIO
+    </a>
+  </li> 
+
+
+
+  <li class="slidemenu-divider"></li>
+  <li>
+    FOLLOW
+  </li>
+  <li>
+    <a href="https://twitter.com/adamsingle" target="_blank">
+      <i class="fa fa-twitter fa-2x"></i> TWITTER
+    </a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/AdamSingeDev" target="_blank">
+      <i class="fa fa-facebook fa-2x"></i> FACEBOOK
+    </a>
+  </li>
+
+
+{{#if tags}}
+<ul>
+{{#foreach tags}}
+<li>{{name}}</li>
+{{/foreach}}
+</ul>
+{{/if}}
+</ul>

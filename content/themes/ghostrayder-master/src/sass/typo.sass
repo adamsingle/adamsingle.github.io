@@ -1,0 +1,94 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:100,400,900)");
+@import url("http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300");
+@import url("http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic");
+
+ 
+ body {
+    font-family: 'Lato', sans-serif;
+    //font-family: 'Roboto Condensed', sans-serif;
+    //font-family: 'Playfair Display', serif;
+    font-weight: 100;
+
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400; 
+ 
+
+    h1, h2 {
+        font-weight:900;
+    }
+
+    // blog header
+    > header {
+        h1, h2 {
+            text-transform: uppercase;
+            color:black;
+        }
+        h1 {
+            font-weight: 100;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        h2 {
+            font-size: 16px;
+        }
+        &.activeSnap {
+            #header-inner {
+                h1 {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    // post title
+    > main > article header .meta {
+        font-size: 14px;
+        text-shadow: 1px 1px 0px white;
+    }
+    > main > article header > h2 {
+        font-weight: 100;
+        font-size: 42px;
+        line-height: 52px;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px 0px white;
+    }
+
+    // post text
+    > main > article > .content,
+    > main > article > .column-content {
+        font-size: 18px;
+        line-height: 32px;
+
+        //-webkit-column-width: 350px; 
+        //-webkit-column-gap: 50px;
+        // max-height: 1000px;
+
+        a {
+            color:black;
+        }
+
+        p, img {
+            margin:0 0 15px;
+            //text-align: justify;
+        }
+
+        p:first-child {
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        ul {
+            li {
+            }
+        }
+    }
+
+    // footer
+    > main > footer, > main > .pagination {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 900;
+    }
+}

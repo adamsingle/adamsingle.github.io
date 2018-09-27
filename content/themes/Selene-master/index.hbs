@@ -1,0 +1,43 @@
+{{!< default}}
+
+{{! The comment above "< default" means - insert everything in this file into
+    the {body} of the default.hbs template, which contains our header/footer. }}
+
+{{! The big featured header on the homepage, with the site logo and description }}
+<header class="site-head" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+    <div class="vertical animated fadeInLeft">
+        <div class="site-head-content inner">
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
+            <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+            <h2 class="blog-description">{{@blog.description}}</h2>
+        </div>
+    </div>
+    {{! The tag below includes social links from - partials/links.hbs }}
+    {{> "links"}}
+</header>
+
+{{! The main content area on the homepage }}
+<main class="content" role="main">
+
+    <ul class="timeline">
+        {{! Each post will be output using this markup }}
+        {{#foreach posts}}
+        <li>
+            <div class="{{post_class}} {{#if @even}}direction-r{{else}}direction-l{{/if}}">
+                <div class="flag-wrapper">
+                    <span class="time-wrapper"><time class="time" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time></span>
+                    <span class="flag"><a href="{{url}}">{{{title}}}</a></span>
+                    <ul class="tags">
+                        {{#foreach tags}}
+                            <a href="{{url}}"><li class="tag">{{name}}</li></a>
+                        {{/foreach}}
+                    </ul>
+                </div>
+                <div class="desc">{{excerpt}}</div>
+                <div class="read-more"><a href="{{url}}">Read more</a></div>
+            </div>
+        </li>
+        {{/foreach}}
+    </ul>
+    <a class="rss-link" href="{{@blog.url}}/rss"><i class="fa fa-rss-square"></i></a>
+</main>

@@ -1,0 +1,14 @@
+---
+layout: post
+title: Contact
+date: '2011-10-03 12:18:58'
+---
+
+
+If you have a game or application you├óÔé¼Ôäód like to take to the next stage of conception, feel free to drop me a line and we├óÔé¼Ôäóll discuss it.
+
+If you need an extra set of coder hands to finish off a Unity project, let me know, I├óÔé¼Ôäóm sure we can work something out.
+
+If you├óÔé¼Ôäód just like to contact me for a chat, don├óÔé¼Ôäót hesitate, I├óÔé¼Ôäóm always happy to talk about games.
+
+ [contact-form-7 404 "Not Found"] 

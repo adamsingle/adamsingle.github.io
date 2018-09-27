@@ -1,0 +1,37 @@
+---
+layout: post
+title: Photon
+image: http://res.cloudinary.com/adamsingle/image/upload/v1443437893/BannerPhotonFinal_x3da4i.jpg
+date: '2013-01-04 14:03:09'
+tags:
+- bifrost-studios
+- games
+- photon
+- portfolio
+- releases
+- unity3d
+---
+
+
+Photon is a connect 3 game unlike the others on the app stores. Not tiles, gems or grids here. In photon you must connect coloured discs. These discs bounce and roll of each other creating a chaotic tension. Clear the discs before the screen fills up. In classic mode you keep playing till you can├óÔé¼Ôäót last any longer, while Arcade mode gives you 90 seconds and a fusion meter to achieve maximum points.
+
+Easily the most successful game I├óÔé¼Ôäóve worked on, Photon is a deceptively simple puzzle game in the ├óÔé¼╦£match 3├óÔé¼Ôäó style.├é┬áPhoton was featured on Google Play and has had more than 600 000 downloads. Originally written by a single intern programmer and a single intern artist (and managed by Zanda Mylonas), I acted as mentor, and came through later in production cycle to update and bug fix. Towards the end of my time at Bifrost Studios I got about 80% through a serious update for Photon. In fact, so serious, it├óÔé¼Ôäód probably be a sequel. Whether or not that ever sees release is up to the Bifrost Team now, but I hope so. Really neatened up the experience, opened up the gameplay and made some big improvements to performance.
+
+├é┬á
+
+[![Available_on_the_App_Store_Badge_US-UK_135x40](http://res.cloudinary.com/adamsingle/image/upload/v1443438241/Available_on_the_App_Store_Badge_US-UK_135x40_jaoqy6.png)](https://itunes.apple.com/au/app/photon/id491810249?mt=8&uo=4" target="itunes_store" "Photon on itunes")
+
+![GetItOnGooglePlayBadgeLarger](http://res.cloudinary.com/adamsingle/image/upload/v1443438242/GetItOnGooglePlayBadgeLarger1_hr7yh2.png)
+
+├é┬á
+
+The official game trailer:
+
+<iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/sDJe64pUl8M?feature=oembed" width="640"></iframe>  
+ And below is a video of one of the designers at Bifrost, Denis, who├óÔé¼Ôäós colourblind, playing Photon before we added the colourblind mode:
+
+<iframe allowfullscreen="" frameborder="0" height="360" src="https://www.youtube.com/embed/5TAAPwp033w?feature=oembed" width="640"></iframe>
+
+├é┬á
+
+

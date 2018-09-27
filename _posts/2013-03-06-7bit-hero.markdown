@@ -1,0 +1,76 @@
+---
+layout: post
+title: 7Bit Hero
+image: http://res.cloudinary.com/adamsingle/image/upload/v1443437688/FestivalOfVoicesAcceptedBanner1_n1zbdv.jpg
+date: '2013-03-06 22:03:52'
+tags:
+- 7bithero
+- blog
+- contract
+- games
+- music
+- portfolio
+- releases
+- unity3d
+---
+
+
+7Bit Hero is a bit pop band that put on an amazing live show. Their music is emotive, expressive, and above all else, fun. It├óÔé¼Ôäós all about embracing the good things about gaming. To that end, they actually incorporate multiplayer gaming into the live show. While the band plays, audience members can use a smartphone app to hook into the bands network and partake in simple, clean, fun multiplayer experiences that are projected behind or around the band. That├óÔé¼Ôäós where I come in. I├óÔé¼Ôäóm the guy that makes the app and the server side that manages the interactions and winners.
+
+[![QLDStateLibrary](http://res.cloudinary.com/adamsingle/image/upload/v1443437690/QLDStateLibrary_z6iuad.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437690/QLDStateLibrary_z6iuad.jpg)
+
+It├óÔé¼Ôäós very new tech, the games are super simple, and the app only has functionality when at a live show. But we have plans to expand on that. 7Bit Hero recently played the Festival of Voices in Tasmania, and were incredibly honoured to play at the inaugural PAX Australia. The response was fantastic, and we really hope to get a chance to travel to the States and perform at the other PAX events.
+
+[![FestivalOfVoicesPlaying](http://res.cloudinary.com/adamsingle/image/upload/v1443437691/FestivalOfVoicesPlaying_vjoxsm.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437691/FestivalOfVoicesPlaying_vjoxsm.jpg)
+
+├é┬á
+
+My origins with 7Bit Hero:
+
+Like all good stories, we├óÔé¼Ôäóll start at the start.
+
+By a chance tweet, my life was steered into the path of 7Bit Hero. For those that do not know what or who 7Bit Hero are, take a look at [their website](http://7bithero.com/ "7Bit Hero"). Or, if you├óÔé¼Ôäóre too lazy to press that link and switch tabs, let me just tell you. They are an amazing three-piece band that bring chiptune music to a whole new level. They are gamers, that write songs that sound like games and are about games and/or gamers. More than that, they blend games into their live performance. Using your phone, you get to join a multiplayer game that is happening inside the film clip being shown on a massive screen behind the band that is for the song being played live on stage at that moment. And that├óÔé¼Ôäós where I come in.
+
+[![FestivalOfVoicesGrindForGold](http://res.cloudinary.com/adamsingle/image/upload/v1443437692/FestivalOfVoicesGrindForGold_xdcyza.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437692/FestivalOfVoicesGrindForGold_xdcyza.jpg)
+
+As I mentioned, a chance tweet from the brains, soul and voice of 7Bit Hero, [Hans](https://twitter.com/hunz "Hans twitter"), tweeted a question about probability. I answered and a conversation ensued which led to me joining the team to help extend the functionality of the planned games. We recently had our first show with this new technology. That was a massive couple of weeks. I won├óÔé¼Ôäót lie to you, I was pretty fried by the end of the show. Many nights up till 2, 3 even 4am on that last night before the show. Unfortunately the original coder, who had done a fantastic job of laying the foundation for the games, could no longer work on it. I was, and still am for that matter, only doing this part-time since I was still working full-time with Bifrost Studios, and we were down to just a few weeks before the show with a lot of work still to do. But we got there. I managed to get a number of games implemented. we had tested them on the hardware. We had managed to get 9 devices together to test at once. This was nowhere near the amount we were expecting on the night, but it was the best we could do. Since we were still adding features into the application right up to the bell, we couldn├óÔé¼Ôäót submit it to Apple and have it show up on the store in time, so we had to use Testflight and as many of the 100 devices we were allowed to test with under the Apple Developers Program. We quickly hit that limit. On the night we had at least 200 devices with the app installed ready to play (including Android).
+
+[![EatLoot](http://res.cloudinary.com/adamsingle/image/upload/v1443437884/EatLoot-e1362571754141_fikkjc.png)](http://adamsingle.com/wp-content/uploads/2013/03/EatLoot.png)
+
+As the first song started, my heart dropped. We were getting nothing. None of the devices were able to see the game server. This had not happened in any testing. I had expected some lag, or some bugs, but I hadn├óÔé¼Ôäót expected dead games. To say I was heartbroken would be an understatement. I had worked myself to the ground getting this to a state that could show people what 7Bit Hero can do. To hint at what we├óÔé¼Ôäóll do in future, where we intend to go, the possibilities. But something unexpected to do with our hardware had kicked the legs out from under us.
+
+This was where I got to see exactly how amazing a man Hans is. I already knew, from the way he had dealt with me and others on this project, that he was a fantastic man to be working with. The motivational emails alone showed me that. But at this point he rallied the crowd behind him and, along with the other two members of the band, played a phenomenal show. Our VJ, [Jaymis](https://twitter.com/jaymis), also showed me just what he was capable of, adding to the performance with video and lighting. These guys were truly amazing. I felt incredible disappointed. I felt that I had let them down somehow. I├óÔé¼Ôäóm quite sure it wasn├óÔé¼Ôäót my code, that had been tested ad nauseum, but the games part of the show was my responsibility, and it was the only part that didn├óÔé¼Ôäót perform. We tried a few things and for each of the games we opened up the server and tried getting some connections again, but nothing worked fur us.
+
+[![PileOfCoins](http://res.cloudinary.com/adamsingle/image/upload/v1443437823/PileOfCoins-e1362571852854_wzifxs.png)](http://adamsingle.com/wp-content/uploads/2013/03/PileOfCoins.png)
+
+Despite that, as I said, the show was fantastic, the crowd loved it, the reviewers loved it and everyone got a strong idea of what it would be with the games happening. We still showed the video that should have had their avatars in them, shooting laser beams at pyramids or spewing gold coins in a voxelated (is that a word? it should be) love heart.
+
+[![SpewCoinsCropped](http://res.cloudinary.com/adamsingle/image/upload/v1443437822/SpewCoinsCropped_xlfvog.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437822/SpewCoinsCropped_xlfvog.jpg)
+
+Fast forward many months and 7Bit Hero is playing the Festival of Voices in Tasmania. A lot has happened to me in the interim. I├óÔé¼Ôäóm no longer at Bifrost Studios, and picking up as many contracts as I can, both to pull in some money, and to make a name for myself. Eventually I managed to find some time to restructure the code and change the networking architecture to a peer-to-peer one. This was all in place only a few days before the show, and was essentially untested except for on the few devices I had at home, and a rehearsal before the band flew out. But it worked beautifully. We had games with 32 players entering perfectly and playing together. Only one bug marred the night. The code to choose the winner was flawed, and the list of players that should have contained everyones collective scores from all games over the course of the night had 0 points for everyone. This meant that although it selected a winner, it essentially was random (the first on the list after it was run through a sorting algorithm where every element had the same value). So yay to Fluff, but sadly we├óÔé¼Ôäóll never know who really one that night.
+
+├é┬á
+
+[![WinnerFestivalOfVoices](http://res.cloudinary.com/adamsingle/image/upload/v1443437690/WinnerFestivalOfVoices_vr133j.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437690/WinnerFestivalOfVoices_vr133j.jpg)
+
+This obviously needed to be fixed up before PAX the following weekend. And it was. PAX provided us with a different set of challenges. Unlike the Tasmanian venue, we had many competing wifi signals. Generally speaking the airwaves were thick with signals of all kinds. This caused a lot of issues with players being unable to connect to the network, or being kicked off after joining. Although we managed to stabalise it to some extent, we never got a full game. The closest was 10 out of a ma 16 players. But everyone had a blast and most importantly, we had a winner! yay MAPLE!
+
+├é┬á
+
+[![PAXAusWinner](http://res.cloudinary.com/adamsingle/image/upload/v1443437689/PAXAusWinner_jwpo9x.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437689/PAXAusWinner_jwpo9x.jpg)
+
+├é┬á
+
+Now that we have the foundations working, we├óÔé¼Ôäóll get someone cracking on the hardware to eliminate the issues we had at PAX. While that├óÔé¼Ôäós happening, Hans and I will get to work extending the features. We├óÔé¼Ôäóll start adding some coop team games like a tug-of-war, as well as an extended list of interactions we can have with those not in a game. Since we often have 60 to 100 people connected to the network, while only 8, 16 or 32 get to play any given game, we want to work on ways to involve the rest of the audience. Even if it├óÔé¼Ôäós just having all their phones flash like crazy at certain points. There are so many possibilities, and it never gets boring. Plus there├óÔé¼Ôäós the offline game we have started designing ├»┬┐┬¢├»┬┐┬¢
+
+Huge thanks to Jasmin Swilks Photography and Phil Kitt Photography for the great photos.
+
+[nggallery id=8]
+
+├é┬á
+
+├é┬á
+
+├é┬á
+
+

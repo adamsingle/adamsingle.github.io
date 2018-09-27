@@ -1,0 +1,57 @@
+---
+layout: post
+title: A new company, dev update and Gurnett Chess
+image: http://res.cloudinary.com/adamsingle/image/upload/v1443437811/539690_568598346508143_2027712395_n_unz7uw.jpg
+date: '2013-05-09 21:20:01'
+tags:
+- blog
+- design
+---
+
+
+Hello everyone. Let├óÔé¼Ôäós start with a dev update shall we.
+
+This week I began working on a digital prototype of my latest idea. This is the one that I was paper prototyping last week. I decided to steer away from paper prototyping it for a few reasons. One, making physical things isn├óÔé¼Ôäót my strong point and I├óÔé¼Ôäóm not particularly fast at it. Secondly, it├óÔé¼Ôäós awkward to show anyone since I├óÔé¼Ôäóm not in a studio with a team. Thirdly, I wanted to test out a couple of plugins for Unity that would handle one aspect of the game anyway, so this became a good demo/learning experience for those packages.
+
+So, in less time than it took me to find a blank card template, print them out and cut them up I managed to get a basic demo of the concept done. Enough that it immediately highlighted something I hadn├óÔé¼Ôäót thought about that will need to be optimised a lot for this to work (and will quite possibly mean writing a custom solution and ruling out the packages I was testing). The plan is to have a pre alpha, playable demo plus concept art ready for PAX in July. I├óÔé¼Ôäóm not showing anything, I don├óÔé¼Ôäót have a place in a booth, but I can still have my iPad handy, you never know who you├óÔé¼Ôäóll meet.
+
+[![wpid-Photo-27092012-800-PM-600x300](http://res.cloudinary.com/adamsingle/image/upload/v1443437811/wpid-Photo-27092012-800-PM-600x300_sbd0gm.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437811/wpid-Photo-27092012-800-PM-600x300_sbd0gm.jpg)
+
+Which leads nicely into the next topic. PAX. Since I am now going to PAX I would like to have some things ready for it. I don├óÔé¼Ôäót want to be there marketing myself, because I├óÔé¼Ôäóm a developer for hire. That├óÔé¼Ôäós not the PAX audience. I want to be marketing the games we├óÔé¼Ôäóre working on. To do that, we need a company to market. So we are furiously looking into what needs to be done for that, what it costs, what it actually means to be a company, logo design and we├óÔé¼Ôäóve started planning an iPad application that will work something like a multimedia brochure that will show off our ideas, our artwork, our music and ourselves. Oh, and a company name. That├óÔé¼Ôäós always fun.
+
+Meanwhile, Brother Dave is still hard at work on the first draft of the prologue to our narrative point and click. I will quietly announce here and now that it is under the working title Reel. Read of that what you will ├»┬┐┬¢├»┬┐┬¢ He├óÔé¼Ôäóll be visiting me, draft in hand, next week, so I am really looking forward to reading it and sending it to the artists to spark some concept inspiration!
+
+While they├óÔé¼Ôäóre waiting for that, one of our art lads, James, has been experimenting and playing with Unity some more. Below are some more stunning screenshots of his work. This is after about a month of toying with Unity in his own time. What a machine.
+
+[nggallery id=5]
+
+├é┬á
+
+Not to be outdone, MC has just kicked into music creation mode. He very quickly started throwing 30 second snippets at us for feedback. I├óÔé¼Ôäóm really looking forward to showing of some of the music he writes for us soon.
+
+├é┬á
+
+Now that the formalities are out of the way, let├óÔé¼Ôäós talk about the design challenge I issued last week. So far (I├óÔé¼Ôäóm writing this on Tuesday) I haven├óÔé¼Ôäót received any responses to it. That├óÔé¼Ôäós a little sad. But I understand my readership is small at the moment and it was a bit of an experiment anyway. The results would indicate it├óÔé¼Ôäós a little early for audience participation. Or I need to look at how I ├óÔé¼┼ôsell├óÔé¼┬Ø my posts. Perhaps something like ├óÔé¼┼ôCan you make chess better?├óÔé¼┬Ø Would have been more eye catching than ├óÔé¼┼ôAn open design challenge├óÔé¼┬Ø. What├óÔé¼Ôäós done is done. Let me tell you about the inspiration for that post. Gurnett Chess.
+
+Gurnett Chess, as I call it, was created by two brothers, Neil and Bradley Gurnett, two very good friends of mine. They came up with it when they were just young boys, and ever since they showed me, it├óÔé¼Ôäós stuck in my head as an incredible example of game design. The problem they were solving was the number of players. There were 4 of them (friends in the street often dropped in to play whatever was going). They could easily play two separate games of chess, but that never feels right as a kid. If you have 4 people, you need to maximise your involvement with all of them, it├óÔé¼Ôäós some sort of unspoken childhood rule. So, they added just two simple rules. The set up is exactly the same, you still need two chess sets, just as if you were going to play two separate games. Set them up side by side. Choose a partner. Your partner has the opposite colour to you. Then the new rules: You may, instead of moving a piece, do one of two things.
+
+├é┬á
+
+1. Send a piece that you have captured from your opponent, across the gap between boards, to the other game. Not into it, just beside it.
+2. Bring into play, under your control, any piece that your team mate has sent across.
+
+[![Bughouse_game](http://res.cloudinary.com/adamsingle/image/upload/v1443437810/Bughouse_game_k7whur.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437810/Bughouse_game_k7whur.jpg)
+
+So simple. Cooperative reinforcements. This made a massive difference to strategies. The tide of a game can drastically turn very quickly. Games often went on for epic amounts of time, and in many cases ended in a draw. That├óÔé¼Ôäós not surprising though really. If you lost, you usually did so after losing many pieces, which you were sending to your team mate, who was seriously outgunning his opponent.
+
+So it├óÔé¼Ôäós not perfect. As you can quickly see, there are balancing issues. The delay in sending pieces went some way to mitigating that, and for a couple of lads of, I think maybe 12 years old, it├óÔé¼Ôäós pretty impressive. It certainly triggers a barrage of thoughts and design directions you could go. What I love most about this is that it changes none of the rules really. If you can play chess, you can play this version of it. There are no new pieces or changed move patterns.
+
+Interestingly, while doing some google image searches for interesting photos or pictures of two chess boards, I discovered that what I├óÔé¼Ôäóve been calling Gurnett Chess for years has been invented before. It├óÔé¼Ôäós generally known as [Bughouse chess](http://en.wikipedia.org/wiki/Bughouse_chess "Bughouse chess"). And here we learn our second lesson. Many of your awesome ideas will already have been thought up by someone else. But that doesn├óÔé¼Ôäót mean it might not be new to someone. I did find some fascinating images when searching for [4 player chess](https://www.google.com/search?site=&tbm=isch&source=hp&biw=1280&bih=929&q=4+player+chess&oq=4+player+chess&gs_l=img.3..0l3j0i24l7.249.2294.0.2390.14.14.0.0.0.0.236.1367.5j5j2.12.0...0.0...1ac.1.12.img.AN9ESveLv9E "google images search for 4 player chess") though.
+
+I have tried many times over the years, especially in more recent ones, to give myself similar challenges for other existing games. But I still struggle greatly with coming up with simple modifications that improve or even just drastically modify the way a game plays. Guess I just need to keep practicing.
+
+Chat later,
+
+Adsy.
+
+

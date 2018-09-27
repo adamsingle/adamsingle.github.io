@@ -1,0 +1,50 @@
+---
+layout: post
+title: Hot Tail
+image: http://res.cloudinary.com/adamsingle/image/upload/v1443437745/BannerHotTail1_yijpb8.jpg
+date: '2012-12-21 20:31:42'
+tags:
+- bifrost-studios
+- games
+- hot-tail
+- portfolio
+- releases
+- unity3d
+---
+
+
+Hot Tail is a fun little ├óÔé¼┼ôforward runner├óÔé¼┬Ø. Harold is an Ibex. Escaping moments before being sacrificed to a massive fire demon, his tail alight from the close call, he know runs for his life.
+
+The player must dodge rocks, piles of skulls and other paraphenalia while avoiding the fireballs of the demon chasing them. A ├óÔé¼┼ôforward runner├óÔé¼┬Ø is a term I made up, it simply means the player character is running towards the camera. The screen shots and game play video below make it clearer.
+
+[![GameHotTail](http://res.cloudinary.com/adamsingle/image/upload/v1443437744/GameHotTail_fh4ap4.jpg)](http://res.cloudinary.com/adamsingle/image/upload/v1443437744/GameHotTail_fh4ap4.jpg)
+
+Hot Tail was the first game I made ├óÔé¼┼ôprofessionally├óÔé¼┬Ø and it was actually started while I was still a student. I began an internship with Valhalla Studios (now Bifrost Studios) as a part of my degree. They had an idea for a mobile game and needed a coder.
+
+So, with no experience making applications for mobile, no experience using a mac and no other coder on the team to assist me, I threw myself into figuring out how to make this game. The artists had already started making assets with no guidelines other than some loose, self imposed limits (which were wrong). I hadn├óÔé¼Ôäót even left college yet and I was already facing one of the biggest challenges I├óÔé¼Ôäóve come up against yet.
+
+It├óÔé¼Ôäós not the most polished game on the market. The art style went through a number of hands and a number of changes due to technical limitations we discovered as we went. It was my first attempt at using Unity, and my first time as a member of the ├óÔé¼┼ôdesign├óÔé¼┬Ø team. The amount I├óÔé¼Ôäóve learnt since this project still surprises me. I could confidently recreate this game in a few weeks, much more polished and much more fun. In fact I still maintain the idea is a solid one. nearly three years on and I still haven├óÔé¼Ôäót seen another forward runner on the store.
+
+├é┬á
+
+[nggallery id=7]
+
+├é┬á
+
+[![Available_on_the_App_Store_Badge_US-UK_135x40](http://res.cloudinary.com/adamsingle/image/upload/v1443438241/Available_on_the_App_Store_Badge_US-UK_135x40_jaoqy6.png)](https://itunes.apple.com/au/app/hot-tail/id435044599?mt=8&uo=4)
+
+[![GetItOnGooglePlayBadgeLarger](http://res.cloudinary.com/adamsingle/image/upload/v1443438242/GetItOnGooglePlayBadgeLarger1_hr7yh2.png)](https://play.google.com/store/apps/details?id=com.BifrostStudios.HotTail&hl=en)
+
+Official Game Trailer:
+
+<iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/axXV--yHtwE?feature=oembed" width="640"></iframe>
+
+├é┬á
+
+├é┬á
+
+├é┬á
+
+├é┬á
+
+
