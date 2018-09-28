@@ -30,9 +30,13 @@ Basically, I'm assuming if you have clicked on the link to read this blog, you h
 
 #### Versions
 I'm writing this blog using the following versions:
+
 Unity - 2018.2.0f2
+
 Zenject - 7.2.0
+
 Moq - 4.7.99
+
 UniRx - 6.2.1
 
 #### Installation

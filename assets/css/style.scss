@@ -2,3 +2,21 @@
 ---
 
 @import "jekyll-theme-midnight";
+@import "fonts";
+
+*{
+    font-family: 'Mukta' !important;
+    font-size: medium;
+}
+
+h4 {
+    font-size: large;
+}
+
+strong {
+    font-family: 'MuktaBold' !important;
+}
+
+code {
+    font-size: 18px !important;
+}
